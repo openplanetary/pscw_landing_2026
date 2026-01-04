@@ -16,6 +16,7 @@ project:
     - file: pages/acknowledgements.md
 site:
   template: book-theme
+  url: https://openplanetary.github.io/pscw_landing_2026
   nav:
     - title: Home
       url: /
