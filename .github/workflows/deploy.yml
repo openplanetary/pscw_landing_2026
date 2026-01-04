@@ -26,6 +26,8 @@ jobs:
         run: npm install -g mystmd
       - name: Build site
         run: myst build --html
+        env:
+          BASE_URL: /pscw_landing_2026
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
