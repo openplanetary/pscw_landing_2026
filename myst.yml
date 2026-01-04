@@ -1,0 +1,42 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 899b5b31-4895-46ff-ab87-48d78140335d
+  title: PSCW
+  # description: 
+  # keywords: [GALEX, GLCat, gPhoton, gPhoton2, UV, astronomy, astrophysics, photometry]
+  # authors:
+  github: https://github.com/openplanetary/pscw_landing_2026
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+  toc:
+    - file: pages/main.md
+    - file: pages/summary.md
+    - file: pages/logistics.md
+    - file: pages/abstracts.md
+    - file: pages/acknowledgements.md
+site:
+  template: book-theme
+  nav:
+    - title: Home
+      url: /
+    - title: Overview
+      url: /summary
+    - title: Logistics
+      url: /logistics
+    - title: Abstracts
+      url: /abstracts
+    - title: Acknowledgements
+      url: /acknowledgements
+  options:
+    favicon: image.png
+    logo: image.png
+    # logo_text: "PSCW 2026"
+    footer: ""
+    hide_toc: false
+    hide_footer_links: true
+    hide_title_block: true
+  banner: ""
+abbreviations:
+  PSCW: Planetary Science Community Workshop
+  KYSC: Kentucky Science Center
+  SDF: Muhammad Ali International Airport
