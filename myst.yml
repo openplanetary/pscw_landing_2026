@@ -16,7 +16,7 @@ project:
     - file: pages/acknowledgements.md
 site:
   template: book-theme
-  url: http://planetaryworkshop.org/
+  url: planetaryworkshop.org/
   nav:
     - title: Home
       url: /
