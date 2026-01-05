@@ -1,0 +1,7 @@
+### Schedule and Agenda
+
+The event will take place in a single room with a single track. The notional schedule at this time is for contributed talks during the morning session and for invited talks, panels, and open discussion during the afternoon sessions. The exact schedule and agenda will be finalized based on contributed abstracts and in consultation with the Science Organizing Committee (SOC).
+
+There will be room in the schedule for 30-40 contributed talks (of 8-10 minute duration), and physical space to display ~30-50 posters (~48"x48") continuously. When you submit an abstract, you will be given the opportunity to request a talk, poster, either, or neither (i.e. abstract only). After abstract submission closes, the SOC will review all abstracts for compliance with the scope of the workshop, and triage talk and poster requests.
+
+**Submissions by early career researchers and topics of timely and emerging interest to planetary scientists will be prioritized for talk and poster slots.** We anticipate far fewer presentation opportunities than attendees. Our objective is to expose all workshop participants to the breadth, depth, and diversity of issues facing the (broad, deep, and diverse) field of planetary science, to develop a shared understanding of collective challenges, so that we can try to tackle them together.

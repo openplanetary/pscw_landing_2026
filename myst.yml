@@ -2,7 +2,7 @@
 version: 1
 project:
   id: 899b5b31-4895-46ff-ab87-48d78140335d
-  title: PSCW
+  title: PSCW 2026
   # description: 
   # keywords: [GALEX, GLCat, gPhoton, gPhoton2, UV, astronomy, astrophysics, photometry]
   # authors:
@@ -11,30 +11,60 @@ project:
   toc:
     - file: pages/main.md
     - file: pages/summary.md
+    - file: pages/registration.md
     - file: pages/logistics.md
+    - file: pages/virtual.md
     - file: pages/abstracts.md
-    - file: pages/acknowledgements.md
+    - file: pages/agenda.md
+    - file: pages/keynotes.md
+    - file: pages/organizers.md
+    - file: pages/conduct.md
+    - file: pages/budgets.md
+    - file: pages/contact.md
 site:
   template: book-theme
   url: planetaryworkshop.org/
   nav:
     - title: Home
       url: /
-    - title: Overview
-      url: /summary
+    - title: Registration
+      url: /registration
+      children:
+        - title: In-Person
+          url: /registration
+        - title: Virtual
+          url: /virtual
+    - title: Abstracts
+      children:
+        - title: Abstract Submission
+          url: /abstracts
+        - title: Agenda
+    - title: Agenda
+      url: /agenda  
+      children:
+        - title: Agenda
+          url: /agenda
+        - title: Keynotes
+          url: /keynotes
     - title: Logistics
       url: /logistics
-    - title: Abstracts
-      url: /abstracts
-    - title: Acknowledgements
-      url: /acknowledgements
+      children:
+      - title: Logistics
+        url: /logistics
+      - title: Code of Conduct
+        url: /conduct
+      - title: Organizers
+        url: /organizers
+      - title: Budgets
+        url: /budgets
+      - title: Contact
+        url: /contact
   options:
     favicon: image.png
     logo: image.png
     # logo_text: "PSCW 2026"
     footer: ""
     hide_toc: false
-    hide_footer_links: true
     hide_title_block: true
   banner: ""
 abbreviations:
