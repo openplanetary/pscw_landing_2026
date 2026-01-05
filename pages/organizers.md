@@ -12,7 +12,7 @@ PSCW is being developed as a joint partnership between Million Concepts, OpenPla
 
 #### Science Organizing Committee
 
-The Science Organizing Committee is being finalized. Members will be announced here by the end of January. If you are interested in volunteering to serve on the SOC, please contact the organizers.
+We are seeking 8 total members for the Science Organizing Committee (SOC). Members will be announced here by the end of January. If you are interested in volunteering to serve on the SOC, please indicate your interest when registering for the event.
 
 ---
 

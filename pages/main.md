@@ -1,5 +1,6 @@
 ---
 title: Planetary Science Community Workshop 2026
+slug: index
 site:
   hide_outline: true
   hide_toc: true
