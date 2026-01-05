@@ -23,7 +23,7 @@ project:
     - file: pages/contact.md
 site:
   template: book-theme
-  url: planetaryworkshop.org/
+  url: https://planetaryworkshop.org
   nav:
     - title: Home
       url: /
