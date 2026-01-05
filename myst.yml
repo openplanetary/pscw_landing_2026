@@ -66,13 +66,6 @@ site:
         url: /budgets
       - title: Contact
         url: /contact
-  options:
-    favicon: image.png
-    logo: image.png
-    # logo_text: "PSCW 2026"
-    footer: ""
-    hide_toc: false
-    hide_title_block: true
   banner: ""
 abbreviations:
   PSCW: Planetary Science Community Workshop
