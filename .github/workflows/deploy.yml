@@ -26,11 +26,22 @@ jobs:
         run: npm install -g mystmd
       - name: Build site  
         run: myst build --html
-      - name: Install dependencies and build static export
+      - name: Setup static site structure
         run: |
-          cd _build/templates/site/myst/book-theme
-          npm install
-          npm run build:html
+          cp -r _build/templates/site/myst/book-theme/build _build/site/
+          cp -r _build/templates/site/myst/book-theme/public/* _build/site/public/
+          cat > _build/site/index.html << 'EOF'
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>PSCW 2026</title>
+            <script>window.addEventListener('DOMContentLoaded', () => import('/build/index.js'));</script>
+          </head>
+          <body><div id="root"></div></body>
+          </html>
+          EOF
       - name: Copy CNAME
         run: cp CNAME _build/site/
       - name: Upload artifact
