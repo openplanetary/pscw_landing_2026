@@ -31,7 +31,6 @@ site:
     footer: ""
     hide_toc: false
     hide_title_block: true
-    static: true
   nav:
     - title: Home
       url: /
