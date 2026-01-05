@@ -27,11 +27,11 @@ jobs:
       - name: Build site
         run: myst build --html
       - name: Copy CNAME
-        run: cp CNAME _build/html/
+        run: cp CNAME _build/site/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./_build/html
+          path: ./_build/site
 
   deploy:
     environment:
