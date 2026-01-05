@@ -24,6 +24,14 @@ project:
 site:
   template: book-theme
   url: planetaryworkshop.org
+  options:
+    favicon: image.png
+    logo: image.png
+    # logo_text: "PSCW 2026"
+    footer: ""
+    hide_toc: false
+    hide_title_block: true
+    static: true
   nav:
     - title: Home
       url: /
